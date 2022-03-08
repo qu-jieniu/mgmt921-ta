@@ -17,4 +17,4 @@
 
 1. Open Temrinal 
 
-2. Run `export PATH="/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH"`
+2. Run `export PATH="/Library/PostgreSQL/14/bin/:$PATH"`
