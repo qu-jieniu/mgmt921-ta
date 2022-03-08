@@ -1,7 +1,7 @@
 Step 1 
 
 ```sh
-psql postgres
+psql -d postgres -U postgres
 # username: postgres
 # password: the master password you choose when installing postgresql
 
@@ -75,7 +75,7 @@ python3 update_postgres.py
 Step 4
 
 ```sh
-psql wrds
+psql -d wrds -U postgres
 
 DROP SCHEMA IF EXISTS work CASCADE; CREATE SCHEMA work;
 
