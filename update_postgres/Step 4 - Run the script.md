@@ -75,9 +75,5 @@ python3 update_postgres.py
 Step 4
 
 ```sh
-psql -d wrds -U postgres
-
-DROP SCHEMA IF EXISTS work CASCADE; CREATE SCHEMA work;
-
-\i crsp_comp_merge.sql
+psql -d wrds -U postgres -f mgmt921_crsp_comp_merge.sql
 ```
