@@ -77,5 +77,7 @@ Step 4
 ```sh
 psql wrds
 
+DROP SCHEMA IF EXISTS work CASCADE; CREATE SCHEMA work;
+
 \i crsp_comp_merge.sql
 ```
