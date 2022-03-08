@@ -29,7 +29,7 @@ wrds_update(schema="crsp"
 	, create_roles=False
 	)
 
-# crsp.dsf takes the longest time to download - expect 1-2 hrs
+# crsp.dsf takes the longest time to download - expect 1-2 hrs on a 50MBs download speed
 wrds_update(schema="crsp"
 	, table_name="dsf" 
 	, host="postgres:<master password>@localhost"
