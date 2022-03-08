@@ -20,7 +20,6 @@ from wrds2pg import wrds_update
 wrds_update(schema="crsp"
 	, table_name="stocknames" 
 	, host="postgres:<master password>@localhost"
-	, host="cedar-pgsql-vm"
 	, dbname="wrds"
 	, wrds_id="<your wrds id>"
 	, fix_missing=True
