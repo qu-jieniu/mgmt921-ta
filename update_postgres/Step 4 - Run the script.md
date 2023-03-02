@@ -28,18 +28,6 @@ wrds_update(schema="crsp"
 	, create_roles=False
 	)
 
-# crsp.dsf takes the longest time to download - expect 1-2 hrs on a 50MBs download speed
-wrds_update(schema="crsp"
-	, table_name="dsf" 
-	, host="postgres:<master password>@localhost"
-	, dbname="wrds"
-	, wrds_id="<your wrds id>"
-	, fix_missing=True
-	, fix_cr=True
-	, force=True
-	, create_roles=False
-	)
-
 wrds_update(schema="crsp"
 	, table_name="ccmxpf_lnkused" 
 	, host="postgres:<master password>@localhost"
@@ -53,6 +41,18 @@ wrds_update(schema="crsp"
 
 wrds_update(schema="comp"
 	, table_name="fundq" 
+	, host="postgres:<master password>@localhost"
+	, dbname="wrds"
+	, wrds_id="<your wrds id>"
+	, fix_missing=True
+	, fix_cr=True
+	, force=True
+	, create_roles=False
+	)
+
+# crsp.dsf takes the longest time to download - expect 1-2 hrs on a 50MBs download speed
+wrds_update(schema="crsp"
+	, table_name="dsf" 
 	, host="postgres:<master password>@localhost"
 	, dbname="wrds"
 	, wrds_id="<your wrds id>"
