@@ -71,8 +71,3 @@ Step 3
 python3 update_postgres.py
 ```
 
-Step 4
-
-```sh
-psql -d wrds -U postgres -f mgmt921_crsp_comp_merge.sql
-```
