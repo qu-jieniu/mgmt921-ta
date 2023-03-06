@@ -15,6 +15,5 @@ Mac has python pre-installed.
 After installation, go to Powershell/Terminal, then
 
 ```
-pip3 install wrds2pg
-
+pip install 'git+https://github.com/iangow/wrds2pg'
 ```

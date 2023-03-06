@@ -8,7 +8,7 @@
 
 4. Add 
     - variable name as `postgres`, 
-    - variable value as `C:\Program Files\PostgreSQL\14\bin`
+    - variable value as `C:\Program Files\PostgreSQL\15\bin`
 
 5. Click on ok. 
 
@@ -17,4 +17,4 @@
 
 1. Open Temrinal 
 
-2. Run `export PATH="/Library/PostgreSQL/14/bin/:$PATH" >> ~/.zshrc`
+2. Run `echo 'export PATH="/Library/PostgreSQL/15/bin/:$PATH"' >> ~/.zshrc`
