@@ -26,7 +26,7 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub | ssh <wrds_id>@wrds-cloud.wharton.upenn.edu "cat >> ~/.ssh/authorized_keys"
 
 # 7. log in to the wrds server - the server will generate the key for the sas server too (important)
-ssh <wrds_id>@wrds-cloud.wharton.upenn.edu
+ssh <wrds_id>@wrds-cloud-sshkey.wharton.upenn.edu
 
 # 8. exit the server for preparation of downloading data
 exit
