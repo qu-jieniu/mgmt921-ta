@@ -1,6 +1,10 @@
 Reference: https://github.com/EvanJo/wrds2pg
 
-On Powershell or Terminal:
+On Windows, install Git for Windows and use Git Bash to run the following commands.
+
+On Mac, run the following commands in Terminal.
+
+Replace <wrds_id> with your wrds account username.
 
 ```sh
 
