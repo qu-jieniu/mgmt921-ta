@@ -1,14 +1,10 @@
-# On windows
+# On windows & mac
 
 Go to this website, and choose the installer for your computer:
 
 https://www.python.org/downloads/
 
 Remember to check the option to add to PATH.
-
-# On mac
-
-Mac has python pre-installed. 
 
 # Install wrds2pg
 
