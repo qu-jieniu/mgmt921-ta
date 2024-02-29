@@ -6,7 +6,7 @@ You can do this by using DataGrip, which is shown in the instruction video.
 
 Alternatively, you can use the following SQL command in DataGrip:
 
-```sql
+``` sql
 CREATE DATABASE wrds;
 ```
 
@@ -14,8 +14,7 @@ CREATE DATABASE wrds;
 
 Create a new file called update_postgres.py
 
-Replace the <master password> with your postgres master password.
-Replace <your wrds id> with your wrds account username.
+Replace the \<master password\> with your postgres master password. Replace \<your wrds id\> with your wrds account username.
 
 ``` py
 
