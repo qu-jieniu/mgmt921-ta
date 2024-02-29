@@ -11,5 +11,5 @@ Remember to check the option to add to PATH.
 After installation, go to Bash/Terminal, then
 
 ```
-pip install wrds2pg==1.0.27
+pip3 install wrds2pg==1.0.27
 ```
