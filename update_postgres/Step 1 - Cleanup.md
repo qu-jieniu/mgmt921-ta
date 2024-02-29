@@ -1,6 +1,17 @@
-Reference: https://github.com/EvanJo/wrds2pg
+On Windows, install the following software
 
-On Windows, install Git for Windows and use Git Bash to run the following commands.
+- [Git for Windows](https://git-scm.com/download/win) (and use Git Bash to run the following commands)
+- Python
+- DataGrip (activate using GitHub Student Developer Pack)
+- PostgreSQL
+- VSCode
+
+On Mac, install the following software
+
+- Python
+- DataGrip (activate using GitHub Student Developer Pack)
+- PostgreSQL
+- VSCode
 
 On Mac, run the following commands in Terminal.
 
